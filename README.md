@@ -1,6 +1,6 @@
-#Kafka Spring Retry
+# Kafka Spring Retry
 
-###Description
+### Description
 
 The main goal of this project is to test two ways of doing a "retry":
   
@@ -20,7 +20,7 @@ The main goal of this project is to test two ways of doing a "retry":
       happens, the message goes to the Error topic.
   
 
-###Execution 
+### Execution 
 
 When trying to call a successful topic send the message containing "oi".
 
@@ -36,7 +36,7 @@ To block the "retry" consumer:
 curl --location --request GET 'http://localhost:8080/block/retry/message/<<message>>'
 ```
 
-###Sources
+### Sources
 
 Docker taken from this article: https://medium.com/azure-na-pratica/apache-kafka-kafdrop-docker-compose-montando-rapidamente-um-ambiente-para-testes-606cc76aa66
                                 
